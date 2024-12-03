@@ -1,0 +1,53 @@
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #043517;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.Post {background-color: #fff;
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px black);}
+.post-header {display:flex; 
+    align-items: center;
+    padding: 10px;}
+.img-perfil {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+box-shadow:0 2px 2px #043517;}
+.nombre {flex-grow: 1;}    
+span.primero {font-weight: bold; vertical-align: inherit;}
+span.segundo {color: grey; font-size: 13px; vertical-align: inherit;}
+.opciones {font-size: 40px;cursor: pointer; vertical-align: inherit; }
+.post-img {width: 100%; height: auto; box-shadow: 0 1px 4px #043517;}
+.post-iconos {display: flex; justify-content: space-between; padding: 10px;
+}
+.iconos{
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.libro {
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.post-likes{
+    padding: 0 8px;
+    font-size: 16px;
+       
+}
+.likes{font-weight: bold;}
+.post-body{
+    padding: 0 10px;
+    font-size: 14px;
+    color:black;
+}
